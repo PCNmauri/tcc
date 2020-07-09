@@ -1,0 +1,12 @@
+DIARIO DE BORDO - DIA 0 - 10/02/20 -
+Começamos o planejamento do nosso site, que será um acervo para o centro de memorias da etec bento quirino contando com um acervo de informações
+e fotos da Escola ETEC Bento Quirino desde a sua fundação até os dias de hoje, também começamos a elaborar como  será feito a parte de front end
+e back end do projeto para a avaliação do professor Américo Vilella para que assim as alterações necessárias sejam feitas e seja possível
+prosseguir com o presente projeto.
+
+DIARIO DE BORDO - DIA 1 - 17/02/20 -
+Entregamos para o professor Américo como poderiamos fazer o site e chegamos ao resultado final.
+Terminamos o logo.
+
+
+
