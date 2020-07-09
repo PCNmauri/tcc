@@ -1,5 +1,9 @@
 <html>
 
+<style>
+#text {display:none;color:red}
+</style>
+
 <?php
     
 include_once ("conexao.php");
@@ -7,10 +11,29 @@ include_once ("conexao.php");
 ?>
     
 <form method = "post" action = "">
+	nome
+	<br>
     <input type = "text" name = "nome">
-    <input type = "password" name = "senha">
+	<br>
+	senha
+	<br>
+	<input type = "password" name = "senha" id="myInput">
+	<p id="text">WARNING! Caps lock is ON.</p>
+	<br>
     <input type = "submit" name = "submit" value = "Cadastrar">
 </form>
+<script>
+var input = document.getElementById("myInput");
+var text = document.getElementById("text");
+input.addEventListener("keyup", function(event) {
+
+if (event.getModifierState("CapsLock")) {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none"
+  }
+});
+</script>
     
     <?php
     
