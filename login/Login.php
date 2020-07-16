@@ -23,7 +23,7 @@
         
         <form action="verifica.php" method="post">
         
-		Login: <input type="text" name="login"/>
+		Login: <input type="text" name="nome"/>
         
 		<br><br>
         
@@ -34,7 +34,7 @@
 		<input type="submit" name="enviar" value="Entrar">
         
 	</form>
-    <a href=testcad.php>Cadastrar</a>
+    <a href=cadastro.php>Cadastrar</a>
     <br>
     <a href=../site>Voltar</a>
         
