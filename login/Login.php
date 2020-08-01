@@ -6,19 +6,22 @@
     
     <?php
 
-    $erro = isset($_POST['erro']) ? $_POST['erro'] : null;
-    
-	if ($erro == 1) {
+    $erro = isset($_GET['erro']) ? $_GET['erro'] : null;
+
+	if ( $erro == 1) {
         
 		echo "Login ou senha errado(s):<br><br>";
         
-	}
+    } else{
+        echo $erro;
+    }
+    
 
     ?>
     
 <body>
     <center>
-        
+    
         <h1>Bem vindo!</h1>
         
         <form action="verifica.php" method="post">

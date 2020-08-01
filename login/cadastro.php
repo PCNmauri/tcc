@@ -1,7 +1,7 @@
 <html>
 
 <style>
-	#text {display:none;color:red}
+	#text {display:none;}
 </style>
 
 <?php
