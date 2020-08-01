@@ -4,14 +4,27 @@
 		<title> Main </title>
 	</head>
 	<body>
+    <?php
+        $erro = isset($_GET['erro']) ? $_GET['erro'] : null;
         
+
+        if ( $erro == 1) {
+    
+        echo "Preencha todos os campos:<br><br>";
+    
+        } else{
+            echo $erro;
+        }
+        ?>
         <h1> Escolha um arquivo para enviar </h1>
 		
 		<form method="post" action="recebe.php" enctype="multipart/form-data">
 			<label>Selecione o arquivo: </label>
-			<input type="file" name="arquivo"/><br><br>
+            <input type="file" name="arquivo"/><br><br>
+            Nome do arquivo:<br>
+            <input type="text" name="nomearq"/><br><br>
 			<input type="submit" value="Enviar" />
-		</form>
+        </form>
         
         <h1> Seus arquivos enviados </h1>
         
@@ -40,6 +53,6 @@
                 session_destroy();
                 header('Location:Login.php');
             }
-        
+        ?>
 	</body>
 </html>
