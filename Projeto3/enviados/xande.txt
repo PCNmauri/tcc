@@ -1,0 +1,27 @@
+🔵 Defender´s 🔵
+
+Spawn >>> A 0:10
+Catwalk	pc     >>> A 0:30
+
+Spawn >>> B 0:52
+Mid      >>> B 1:18
+
+⚡ ShockDart´s ⚡
+
+A Site         >>> A Alley 4:10
+Mid Market >>> Mid  3:50
+B Site         >>> B Main 4:40
+
+
+🔴 Attacker´s  🔴
+
+Mid >>> Mid Market 5:10
+Mid >>> Cat Walk  5:30
+
+⚡ ShockDart´s ⚡
+
+A Main       >>> A Site 1:49
+A Heaven  >>> A Site 2:07
+
+CT Spawn >>> B Site 3:00
+B Main      >>> B Site 3:19
