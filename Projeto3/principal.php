@@ -30,7 +30,7 @@
         
         <?php
             
-            $path = "enviados/";
+            $path = "../site/images/americo/";
             $diretorio = dir($path);
  
             echo "Lista de Arquivos do diretório '<strong>".$path."</strong>':<br />";

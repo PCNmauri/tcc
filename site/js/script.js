@@ -14,4 +14,8 @@
 				$('.header').removeClass('fixed');
 			}
 		});
+		
 	});
+	function myFunction() {
+		location.replace("http://localhost/tcc-master/tcc-master/site/epocas/a.html")
+	  }

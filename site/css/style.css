@@ -250,12 +250,53 @@
 		box-shadow: 0px 0px 30px 0px rgba(0, 0, 0.3);
 		-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0.3);
 	}
-	.estatisticas-item span{
+	p.estatisticas-item{
 		font-size: 33px;
 		font-weight: bold;
 	}
-	.estatisticas-item p{
+	p.estatisticas-desc {
 		font-size: 20px;
+	}
+		/*TOOLTIP
+	--------------------------------- */
+
+	/* Tooltip container */
+	.tooltip {
+		position: relative;
+		display: inline-block;
+	}
+	
+	/* Tooltip text */
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		background-color: black;
+		color: #fff;
+		text-align: center;
+		padding: 10px 10px;
+		border-radius: 6px;
+	
+		/* Position the tooltip text - see examples below! */
+		position: absolute;
+		z-index: 1;
+		width: 350px;
+		/*controle do tooltip*/
+  		top: 130%;
+  		left: 50%;
+  		margin-left: -175px; /* Use half of the width (120/2 = 60), to center the tooltip */
+	}
+	.tooltip .tooltiptext::after {
+		content: " ";
+		position: absolute;
+		top: -15%; /* At the bottom of the tooltip */
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: transparent transparent black transparent;
+	  }
+	/* Show the tooltip text when you mouse over the tooltip container */
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
 	}
 
 
@@ -551,3 +592,7 @@
 
 	.fl-left{float: left;}
 	.fl-right{float: right;}
+	}
+}
+	/*PÁGINAS ESPECIFICAS
+	----------------------------------*/
