@@ -45,13 +45,12 @@
              
         ?>
         <form method="POST">
-        <input type="submit" value="Logoff" name='button'>
+        <input type="submit" value="Voltar" name='button'>
         </form>
         
         <?php
             if(isset($_POST['button'])){
-                session_destroy();
-                header('Location:Login.php');
+                header('Location:../site/index.html');
             }
         ?>
 	</body>
